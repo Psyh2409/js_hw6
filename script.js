@@ -22,7 +22,7 @@ class RobotDancer extends Robot {
     }
 }
 let dncr = new RobotDancer();
-class RobotCooker extends Robot {
+class RobotCooker extends Robot { // it works without constructor
     work = () => {console.log("I'm RobotCooker - I just cook.")}
 }
 let ckr = new RobotCooker();
